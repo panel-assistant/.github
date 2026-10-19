@@ -8,6 +8,7 @@ Panel Assistant is the free, open-source fix. It turns an Android wall panel int
 
 - **Set up from Home Assistant.** Add a panel the way you add any other device: give it the panel's address, or plug a new panel into your computer and install from the browser.
 - **Fast on modest hardware.** Your dashboard is rendered on the panel using only the data it actually shows, which is most of the difference between a panel that lags and one that responds straight away.
+- **Talk to it.** A panel with a microphone becomes a Home Assistant Assist satellite that hears its wake words on the panel itself.
 - **One system for every make.** Different makes and models look and behave the same from Home Assistant, without the maker's software in the way.
 - **Know before you buy.** The supported panels list shows what works on each model before you spend the money.
 
@@ -15,8 +16,8 @@ Panel Assistant is the free, open-source fix. It turns an Android wall panel int
 
 ## The projects
 
-- **[Panel Assistant](https://github.com/panel-assistant/ha-integration)**: the Home Assistant integration, installed through HACS. It installs ha-paneld on your panels, connects them to Home Assistant and keeps them up to date.
-- **[ha-paneld](https://github.com/maxlyth/ha-paneld)**: the app on each panel. It renders the dashboard, drives the panel's hardware and keeps the panel running on its own.
+- **[Panel Assistant](https://github.com/panel-assistant/ha-integration)**: the Home Assistant integration, installed through HACS. It installs the panel app on your panels, connects them to Home Assistant and keeps them up to date.
+- **[Panel app](https://github.com/panel-assistant/android)**: the Android app on each panel. It renders the dashboard, drives the panel's hardware, can act as an Assist voice satellite and keeps the panel running on its own.
 - **[panel-assistant.io](https://github.com/panel-assistant/panel-assistant.io)**: the website and documentation.
 
 ## Get involved
