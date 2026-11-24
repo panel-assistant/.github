@@ -16,7 +16,7 @@ Panel Assistant is the free, open-source fix. It turns an Android wall panel int
 
 ## The projects
 
-- **[Panel Assistant](https://github.com/panel-assistant/ha-integration)**: the Home Assistant integration, installed through HACS. It installs the panel app on your panels, connects them to Home Assistant and keeps them up to date.
+- **[Panel Assistant](https://github.com/panel-assistant/ha-integration)**: the Home Assistant integration, installed from Marketplace or HACS. It installs the panel app on your panels, connects them to Home Assistant and keeps them up to date.
 - **[Panel app](https://github.com/panel-assistant/android)**: the Android app on each panel. It renders the dashboard, drives the panel's hardware, can act as an Assist voice satellite and keeps the panel running on its own.
 - **[panel-assistant.io](https://github.com/panel-assistant/panel-assistant.io)**: the website and documentation.
 
